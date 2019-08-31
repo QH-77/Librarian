@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jl.librarian">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/app_index"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".AddBookActivity"
+            android:label="@string/tv_AddBook"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".zxing.activity.ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".BookLendActivity"
+            android:label="@string/tv_BookLend"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".BookReturnActivity"
+            android:label="@string/tv_BookReturn"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".BookQueryActivity"
+            android:label="@string/tv_BookQuery"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".BookProtectionActivity"
+            android:label="@string/tv_BookProtection"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".RecordActivity"
+            android:label="@string/tv_Record"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SystemActivity"
+            android:label="@string/tv_System"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".UpdateBookInfoActivity"
+            android:label="@string/app_updateBook"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".AddUserActivity"
+            android:label="@string/app_addUser"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".QueryUserActivity"
+            android:label="@string/app_queryUser"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".DeleteUserActivity"
+            android:label="@string/app_deleteUser"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".UpdatePwdActivity"
+            android:label="@string/app_updatePwd"
+            android:launchMode="singleTask"/>
+    </application>
+
+</manifest>

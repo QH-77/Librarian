@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context="com.jl.librarian.IndexActivity">
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="#FFFF00"
+            android:textSize="25sp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_AddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="63dp"
+            android:drawableTop="@drawable/icon_addbook"
+            android:text="@string/tv_AddBook"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_BookLend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/icon_lend"
+            android:text="@string/tv_BookLend"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_BookReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:drawableTop="@drawable/icon_return"
+            android:text="@string/tv_BookReturn"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </TableRow>
+    <TextView android:layout_marginTop="1dp"/>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_BookQuery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="63dp"
+            android:drawableTop="@drawable/icon_query"
+            android:text="@string/tv_BookQuery"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_BookProtection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/icon_bookprotection"
+            android:text="@string/tv_BookProtection"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_Record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:drawableTop="@drawable/icon_record"
+            android:text="@string/tv_Record"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </TableRow>
+    <TextView android:layout_marginTop="1dp"/>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_Internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="63dp"
+            android:drawableTop="@drawable/icon_internet"
+            android:text="@string/tv_Internet"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_System"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/icon_system"
+            android:text="@string/tv_System"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:drawableTop="@drawable/icon_exit"
+            android:text="@string/tv_Exit"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </TableRow>
+</TableLayout>

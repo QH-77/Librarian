@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">图书管理</string>
+    <string name="app_index">主界面</string>
+    <string name="app_addUser">用户添加</string>
+    <string name="app_queryUser">用户信息</string>
+    <string name="app_deleteUser">删除用户</string>
+    <string name="app_updatePwd">密码修改</string>
+    <string name="app_updateBook">图书信息修改</string>
+    <!--主界面-->
+    <string name="tv_AddBook">图书入库</string>
+    <string name="tv_BookLend">图书借出</string>
+    <string name="tv_BookReturn">图书归还</string>
+    <string name="tv_BookQuery">查询功能</string>
+    <string name="tv_BookProtection">图书维护</string>
+    <string name="tv_Record">借阅记录</string>
+    <string name="tv_Internet">网上资源</string>
+    <string name="tv_System">用户管理</string>
+    <string name="tv_Exit">退出系统</string>
+    <!--登录界面-->
+    <string name="tv_user">昵称:</string>
+    <string name="et_user">请输入昵称:</string>
+    <string name="tv_pwd">密码:</string>
+    <string name="et_pwd">请输入密码:</string>
+    <string name="cb_memory">记住密码</string>
+    <string name="btn_login">登录</string>
+    <string name="tv_find">忘记密码？</string>
+    <string name="tv_join">现在注册！</string>
+    <!--添加用户界面-->
+    <string name="tv_name">昵称：</string>
+    <string name="et_name">不超过20个字符</string>
+    <string name="tv_password">密 码：</string>
+    <string name="et_password">不超过20个字符</string>
+    <string name="tv_question1">问题1：</string>
+    <string-array name="sp_question1">
+        <item>你最尊敬的人的名字是？</item>
+        <item>对你意义重大的数字是？</item>
+        <item>你喜欢的人的名字是？</item>
+    </string-array>
+    <string name="et_answer1">你的答案1</string>
+    <string name="tv_question2">问题2：</string>
+    <string-array name="sp_question2">
+        <item>你的爱好？</item>
+        <item>你的学号？</item>
+        <item>你的高中班主任的名字是？</item>
+    </string-array>
+    <string name="et_answer2">你的答案2</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_back">返回</string>
+    <!--查询用户界面-->
+    <string name="tv_answer">答案：</string>
+    <!--删除用户界面-->
+    <string name="btn_deleteUser1">删除</string>
+    <!--密码修改界面-->
+    <string name="tv_tip1">亲爱的[</string>
+    <string name="tv_tip2">],您需要回答以下问题：</string>
+    <string name="tv_formerPwd">原密码：</string>
+    <string name="et_formerPwd">请输入原密码</string>
+    <string name="tv_newPwd">新密码：</string>
+    <string name="et_newPwd">请输入新密码</string>
+    <!--图书入库界面-->
+    <string name="tv_isbn">ISBN：</string>
+    <string name="et_isbn">扫码输入</string>
+    <string name="tv_bookName">书名：</string>
+    <string name="et_bookName">字数不超过15个</string>
+    <string name="tv_bookAuthor">作者：</string>
+    <string name="et_bookAuthor">字数不超过10个</string>
+    <string name="tv_bookPress">出版社：</string>
+    <string name="et_bookPress">字数不超过15个</string>
+    <string name="tv_bookPrice">单价：</string>
+    <string name="tv_bookPublishDay">出版日期：</string>
+    <string name="et_bookPublishDay">按YYYY-MM-DD格式输入</string>
+    <string name="tv_bookStatus">图书状态：</string>
+    <string-array name="sp_bookStatus">
+        <item>未借出</item>
+        <item>已借出</item>
+    </string-array>
+    <string name="btn_insert">入库</string>
+    <string name="btn_backToMain">返回主界面</string>
+    <!--图书借出界面-->
+    <string name="tv_bookName1">书名</string>
+    <string name="tv_readerInfo">借阅者信息~~</string>
+    <string name="tv_readerName">姓名：</string>
+    <string name="tv_readerSex">性别：</string>
+    <string-array name="sp_readerSex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="tv_readerTel">联系电话：</string>
+    <string name="et_readerTel">输入标准13位电话号码</string>
+    <string name="tv_date">当前日期</string>
+    <string name="tv_remark">备注：</string>
+    <string name="et_remark">字数不超过25个</string>
+    <string name="btn_sure">确认</string>
+    <!--图书归还界面-->
+    <string name="tv_readerName1">姓名</string>
+    <string name="tv_readerSex1">性别</string>
+    <string name="tv_readerTel1">联系电话</string>
+    <string name="tv_date1">借出日期</string>
+    <string name="tv_remark1">备注</string>
+    <!--查询功能界面-->
+    <string name="btn_queryAllBook">查询所有图书</string>
+    <string name="btn_resetInfo">复位</string>
+    <string name="tv_condition">条件:</string>
+    <string-array name="sp_condition">
+        <item>书名</item>
+        <item>作者</item>
+        <item>出版社</item>
+        <item>图书状态</item>
+    </string-array>
+    <string name="tv_equal">=</string>
+    <string name="et_condition">输入查询值</string>
+    <string name="btn_query">查询</string>
+    <!--图书维护界面-->
+    <string name="btn_update">修改</string>
+    <string name="btn_delete">删除</string>
+    <!--图书信息修改界面-->
+    <string name="btn_updateBook">保存</string>
+    <string name="btn_cancel">取消</string>
+    <!--借阅记录界面-->
+    <string name="btn_queryAllRecords">显示所有借阅记录</string>
+    <string name="tv_date3">借出日期：</string>
+    <string name="btn_deleteRecord">删除</string>
+    <!--系统设置界面-->
+    <string name="btn_addUser">添加用户</string>
+    <string name="btn_queryUser">查询用户</string>
+    <string name="btn_deleteUser">删除用户</string>
+    <string name="btn_updatePwd">修改密码</string>
+</resources>
